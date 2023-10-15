@@ -12,14 +12,13 @@
 <body>
 	
   <div class="main">
-        <p class="sign" align="center">Sign Up</p>
-        <form class="form1" method="post" action="/signupAction" th:object="${user}">
-            <input class="un" type="text" name="username" align="center" placeholder="Full Name">
-            <input class="un" type="text" name="fullname" align="center" placeholder="Username">
-            <input class="pass" type="password" name="password" align="center" placeholder="Password">
-            <input class="pass" type="password" name="confirmpass" align="center" placeholder="Confirm Password">
-           <input class="submit" type="submit" align="center" value="Submit">
-        </form>
+    <p class="sign" align="center">Sign Up</p>
+    <form class="form1">
+      <input class="un " type="text" align="center" placeholder="Full Name">
+      <input class="un " type="text" align="center" placeholder="Username">
+      <input class="pass" type="password" align="center" placeholder="Password">
+      <input class="pass" type="password" align="center" placeholder="Confirm Password">
+      <a class="submit" align="center" href="/success">Sign up</a>
     </div>
 </body>
 </html>

@@ -16,7 +16,7 @@
     <form class="form1">
       <input class="un " type="text" align="center" placeholder="Username">
       <input class="pass" type="password" align="center" placeholder="Password">
-      <a class="submit" align="center" href="/success">Sign in</a>
+      <a class="submit" align="center" href="/home">Sign in</a>
       <p class="forgot" align="center"><a href="/forgotpw">Forgot Password?</p>
       <p class="forgot" align="center"><a href="/signup">Sign up</p>
     </div>

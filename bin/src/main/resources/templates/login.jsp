@@ -12,14 +12,13 @@
 <body>
 	
   <div class="main">
-        <p class="sign" align="center">Sign Up</p>
-        <form class="form1" method="post" action="/signupAction" th:object="${user}">
-            <input class="un" type="text" name="username" align="center" placeholder="Full Name">
-            <input class="un" type="text" name="fullname" align="center" placeholder="Username">
-            <input class="pass" type="password" name="password" align="center" placeholder="Password">
-            <input class="pass" type="password" name="confirmpass" align="center" placeholder="Confirm Password">
-           <input class="submit" type="submit" align="center" value="Submit">
-        </form>
+    <p class="sign" align="center">Sign in</p>
+    <form class="form1">
+      <input class="un " type="text" align="center" placeholder="Username">
+      <input class="pass" type="password" align="center" placeholder="Password">
+      <a class="submit" align="center" href="/success">Sign in</a>
+      <p class="forgot" align="center"><a href="/forgotpw">Forgot Password?</p>
+      <p class="forgot" align="center"><a href="/signup">Sign up</p>
     </div>
 </body>
 </html>
@@ -34,7 +33,7 @@ body {
     .main {
         background-color: #FFFFFF;
         width: 400px;
-        height: 500px;
+        height: 400px;
         margin: 7em auto;
         border-radius: 1.5em;
         box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
@@ -107,7 +106,7 @@ body {
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 10px;
-        padding-top: 10px;	
+        padding-top: 10px;
         font-family: 'Ubuntu', sans-serif;
         margin-left: 35%;
         font-size: 13px;
